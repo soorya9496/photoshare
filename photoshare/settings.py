@@ -25,7 +25,7 @@ SECRET_KEY = '6pnts2h@&4h_^=!^n23&eeok@1u1tl53(&86)8%=xtfk!jfbzy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://soorya9496.github.io/photoshare/']
 
 
 # Application definition
