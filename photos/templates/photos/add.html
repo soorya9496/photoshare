@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Document</title>
+
+    <style>
+        .bg{
+            background-image: url("data:image/jpeg;base64,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");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .card{
+            background-image: url("https://thumbs.dreamstime.com/b/planks-dark-old-wood-texture-background-170515350.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        label{
+            color: white;
+        }
+    </style>
+</head>
+<body class="m-5 bg">
+    <div class="container justify-content-center">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <a href="{% url 'gallery' %}" class="btn btn-dark my-3"><i class="bi bi-chevron-double-left"></i>Go Back</a>
+
+                <div class="card">
+
+                    <form method="POST" action="" enctype="multipart/form-data">{% csrf_token%}
+                        <div class="form-group m-3">
+                            <label><i class="bi bi-text-paragraph"></i>Descriptin</label>
+                            <input required name="description" type="text" class="form-control" placeholder="Enter a description">
+                        </div>
+
+                        <div class="form-group m-3">
+                            <label><i class="bi bi-tags-fill"></i>Select a category</label>
+                            <select name="category" class="form-control">
+                                <option value="none">Select a category</option>
+
+                                {% for category in categories %} 
+
+                                <option value="{{category.id}}">{{category.name}}</option>
+
+                                {% endfor %}
+
+                            </select>
+                        </div>
+
+                        <div class="form-group m-3">
+                            <label><i class="bi bi-tags-fill"></i>Create a new category</label>
+                            <input name="category_new" type="text" class="form-control" placeholder="Enter a new category">
+                        </div>
+
+                        <div class="form-group m-3">
+                            <label><i class="bi bi-image-fill"></i>Upload Image</label>
+                            <input required name="image" type="file" class="form-control-file" >
+                        </div>
+
+                        <button type="submit" class="btn btn-danger m-3">Submit</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+     
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+</body>
+</html>
